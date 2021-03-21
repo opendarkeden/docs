@@ -1,0 +1,21 @@
+天之炼狱服务器端需要在Linux（*unix）下进行编译， 在如下所示环境下正常编译通过并能够正常运行: 
+Core: 
+Linux Redhat v7.3 
+gcc v2.95.3 9
+STL from gcc v2.95.3 
+My-SQL v3.23库文件 
+Login Server 
+Linux Redhat v7.3 
+gcc v2.95.3 
+STL from gcc v2.95.3   
+My-SQL v3.23库文件 
+Game Server  
+Linux Redhat v7.3  
+gcc v2.95.3 
+STL from gcc v2.95.3
+CPP-Unit v1.8.0   
+My-SQL v3.23库文件
+Shared Server 5 
+Linux Redhat v7.3 
+STL from gcc v2.95.3 
+My-SQL v3.23库文件

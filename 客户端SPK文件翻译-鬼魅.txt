@@ -1,0 +1,40 @@
+大部分没有翻译。。。。
+暂时翻译这些希望对你们有用。
+
+
+Title.spk   800X600正常界面
+Title_1024.spk 高分辨界面
+TitleAni.spk  DKLOGO图
+TitleBack.spk  人物选择界面背景
+NpcFace.spk  NPC大图LOGO
+ProgressChar.spk 转图等待界面（怪物模型）
+ProgressEvent.spk 转图等待界面（貌似韩国的800X600）
+Progress_1024.spk 转图等待界面（背景素材1024X768）
+Progress.spk    转图等待界面（背景素材800X600）
+ItemDescription.spk 物品源码
+ChattingSlayer.spk 人类界面1
+ChattingOusters.spk 魔灵界面1
+ChattingVampire.spk 鬼鬼界面1
+Minimap.spk  小地图
+InGameIM.spk 好友界面
+CharCreate.spk 建立人物界面
+CharManager.spk 人物选择界面02
+Common_1024.spk 人物选择界面01 1024X768
+Common.spk      人物选择界面01
+
+
+
+
+Image\ImageObject.spk  物体源码
+Image\tile.spk    地形源码
+Image\GuildMark.spk 工会标志LOGO源码
+Image\AdvancementQuestEnding.spk  转生等待图源码
+Image\UI.spk 登陆开始LOGO+断开连接界面
+Image\Effect.spk  魔法效果（流血状态+血魔法。。。）
+Image\LevelMarkPet.spk  狗狗等级图
+Image\GradeMarkOusters.spk 魔灵阶级图
+Image\GradeMarkVampire.spk 鬼鬼阶级图
+Image\GradeMarkSlayer.spk  人类阶级图
+Data\Image\Etc.spk      交流效果（交易+组队+查看+走路标志+子弹。。。）
+Image\OustersFin.spk  NPC（几个NPC的形象 没什么用）
+Image\ItemBroken.spk  持久度不足提示图

@@ -1,0 +1,35 @@
+http://bbs.yxlyy.club/forum.php?mod=viewthread&tid=960&highlight=%CC%EC%D6%AE%C1%B6%D3%FC
+
+二 天之炼狱客户端源代码底层支持库模块  
+2。1 底层支持库模块概述  
+实际游戏底层支持库分布在以下三个不同位置:  
+第一， Client目录下， 作为Client模块的子工程， 包括重要的SpiritLib， FrameLib， WindowLib， DirectXLib， D3Dlib等;  
+第二， Lib目录下， 比较简单的一些基础库的源代码， 例如BasicS， mother等;  
+第三， 不在整理的源代码中， 但是基本上可以在Disk2/Disk1中找到， 例如Timer， GL等。  
+其中某些库是网上可以找到的free或非free的库， 以源代码的方式加入， 实际往往可以用更新的版本加以替换， 包括CPP-Unit， Jpeglib， Zlib， Feelit Library等等。  
+2。2 关键类库分析I – DirectX相关接口库  
+一， DirectX Library  
+DirectX Library是天炼DirectX相关的接口封装类库， 涉及DirectDraw， DirectSound， DirectMusic， DirectInput等部分。  
+CDirectDraw。cpp: 封装DirectDraw的相关接口和简单调用逻辑到CDirectDraw类。  
+CDirectDrawSurface。cpp: 封装DirectDraw的关键概念Surface到CDirectDrawSurface类。  
+CDirectInput。cpp: 封装DirectInput的相关接口和简单调用逻辑到CDirectInput类， 已经改为dx8/dx9支持。  
+CDirectMusic。cpp: 封装DirectMusic的相关接口和简单调用逻辑到CDirectMusic类。  
+CDirectSound。cpp/CDirectSoundStream。cpp: 封装DirectSound的相关接口和简单调用逻辑到CDirectSound类， 包含mp3和ogg的支持。  
+二， Direct3D Library  
+天炼客户端中使用D3Dlib的作用是使用3D硬件加速2D绘制速度和效果， 例如2D图像blt， alpha透明等运算等等。  
+2。3 关键类库分析II – 天炼精灵库  
+SpriteLib是天炼客户端中非常重要的底层类库， 包括各种精灵文件格式的处理和绘制相关支持。  
+CSpriteSurface。cpp: 精灵Surface类， 基于CDirectDrawSurface， 支持了各种天炼精灵类的绘制以及一些基本特效如: AlphaBlending  
+CAlphaSprite。cpp: AlphaSprite类， 半透明精灵类。  
+CAlphaSpritePack。cpp: AlphaSprite打包文件的读写， 扩展名。aspk。  
+CFilter。cpp: 滤镜类， 用于某些图像处理/图像特效算法。  
+CFileIndexTable。cpp: 文件的索引表类， 打包文件处理相关。  
+CIndexSprite。cpp: IndexSprite类， 索引精灵类。  
+CIndexSpritePack。cpp: IndexSprite打包文件的读写， 扩展名。ispk。  
+CSprite。cpp: 基本精灵类。  
+CSpritePack。cpp: 基本精灵类打包文件的读写， 扩展名。spk。  
+CSpritePal。cpp: 基本精灵调色板类。  
+MPalettePack。cpp: 调色板打包文件的读写。  
+CSpritePalBase。cpp: 各种精灵调色板类的父类。
+本文摘自: 血与荣耀公会论坛(bbs.myrongyao.com) 详细出处请参考：http://bbs.myrongyao.com/thread-10663-1-1.html
+

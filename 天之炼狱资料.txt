@@ -1,0 +1,337 @@
+染图第一要点.你刚进去那个点.地图显示是亮的.那里其实没染.特别注意染那里一下.
+第二点.上面部分由于各种原因染了看不出来.反复多染几遍.
+最后一点.别把狗召出来.全染开以后保证图上没有怪物尸体和掉落的东西.就开门了.
+
+招不招狗没什么影响，，只要你大概染好了，就行了，到右下角要最右等着，怪消失了就好了，一般十分钟就开了，
+
+三族职业转职都是需要达到多少百分比转职才会直接转到160级？望告知，谢谢！
+问题补充：人是16没错，魔是93，鬼好像不对，鬼没那么多！
+人16，鬼魔都是93吧 
+鬼是93.由于鬼转职后可以直接抓死，得经验快很多。所以他们说150直接转也一样。 
+不过我觉得积累93再转好
+
+
+我在做第2个转职任务的时候，他说要用怪的血把屏幕黑的地方打亮，把祭坛之门打开`~，但是我不管怎么打怪地图上有两个地方始终有黑雾，不管怎么弄都消不去`~，各位大哥帮帮我啊~，不然就转不了拉~~，我练了好久才到150的啊~~~~555555
+那两个地方分别是 
+左上右上 两大的 俩小的 
+这个其实正常 
+只要你 确认你在那里染过就可以了 
+那儿有 BUG 不显示 
+但是系统已经确认你通过 
+当地图全部染完 
+你就带着怪兜圈子 
+别杀怪 地图上不能有怪的尸体 同样 物品也不可以有（所以不要把狗放出来比较好） 
+这样 兜个 5分钟 到 20分钟不等 看人品。。。 
+门就会开了
+
+1、安装DBC2000 安装MYSQL4.0.x(源码编译)。  
+2、把/usr/local/mysql/lib/mysql/目录里的libmysqlclient.so和libmysqlclient.so.12复制到/usr/lib/目录内。  
+3、把天之炼狱服务器端程序放到FD里的/root目录下并解压，使用ee命令修改每个服务端目录内CONFIG文件里的IP地址为127.0.0.1(account_server里的CONFIG里除了DB这个IP为127.0.0.1外，其它IP改为你的外网IP)  
+4、把天之炼狱服务器端目录里的数据pay_auth、mysql目录复制到/usr/local/mysql/var目录下。重启mysql服务,进到/usr/local/mysql/var/metin目录内输入“chmod 777 *”命令。  
+5、进到天之炼狱服务器端程序(比如/root/server/)的各个目录里使用chmod 777 *命令。  
+6、运行服务器端，db,chat,mark,log,game,account，在运行db服务端时会提示差libmysqlclient.so.14这个运行库，我们使用ln -s /usr/lib/libmysqlclient.so.12 /usr/lib/libmysqlclient.so.14命令，再运行db服务端就不会提示这个错误了!(运行服务端方法：./xxxxx(所运行服务端的执行文件))  
+7、修改客户端IP，运行客户端，输入帐号进入游戏!  
+140敏力```力102```敏408```纯力70```纯敏387
+借了能4书和敏7书命中464,攻击100-116,回避431
+契约后命中593,回避548
+超狼后命中711,攻击170-186,回避不变
+再变超小狼命中853.攻击230-238,回避387.
+契约加命中看百分比```
+超狼和小狼的损加成是固定```命中加成应该也是百分比```
+超大狼后暗黑复仇```契约```吸血```石肤```隐身```隐蔽```棺材```不可用
+超小狼后滑步```雾```陨石不可用(无速度加成)
+
+
+删掉4个perona开头以后续名字MIP的文件（别删后续名字为MAP的啊，不然哭吧），游戏里面DATA\MAP自己找。 
+但是纯粹是玩的，没什么大用途。
+删了之后你会发现小地图代表安全区绿色的那个影没了。
+PS：弄之前请先备份。
+
+蝙蝠过行宫的方法：
+1.在失落塔外（雪地上）随便找个小怪，然后先变超狼，然后可以直接点翅膀变蝙蝠。
+2.大家看到这个时候是人型，走路也是普通的速度，但是状态栏上同时有狼人和蝙蝠两种状态（这个是关键，一定要两种状态都在）
+3.进入失落塔，变成蝙蝠形态，速度2倍，但是状态栏上的两种状态都还在，一直往行宫入口飞 
+4.进入行宫，你就会发现自己的狼人状态已经消失，但是蝙蝠状态还在！无论是形态还是速度都是蝙蝠的两倍速，然后就跑咯，看着下面的  玩家还在慢吞吞地走，而自己却在飞是很有成就感的哦！ 
+注意事项：1.就算是蝙蝠状态，也会被陷阱插到，注意吃血回复 
+          2.行宫路上经常有看不到，但是会卡住玩家的地方，这种地方也会卡住蝙蝠，算是最大的威胁了 
+最后希望大家能好好利用这个方法，把戒指套从人类手上抢回来！血族荣耀！
+
+
+
+15级的Darkness(黑暗)吸血鬼PK人类常用的雾,隐藏在雾里人类是看不见的.(推出120级魔法后人类才能看见)
+
+　　18级的YellowPoison(黄色毒雾)被好多鬼鬼遗忘的魔法,能把人类视野降低到只有一格的强力魔法,实用性很高,不属于诅咒系哦.
+
+　　20级的TransformToBat(变身蝙蝠)吸血鬼逃生必备.(需要购买蝙蝠翅膀变身)
+
+　　24级的GreenStalker(蔓延绿毒)持续一段时间降低对方血量,咋看一下不起眼,等你78级配合Death使用就鸟枪换炮了.
+
+　　27级的Paralyze(麻痹术)鬼鬼的看家绝活,不用再说了吧.
+
+　　30级的DarkbluePoison(黑暗蓝毒)持续一段时间降低对方MP,对付治疗师和法师必备.
+
+　　42级的Invisibility(隐身术)偷袭人类,练级杀怪都不可缺少的技能.
+
+　　47级的RapidGliding(急速滑行)可以迅速接近目标,移动距离是根据你的DEX的高低而决定的,一般60DEX的话在画面上的使用范围是5厘米,很有用的一个技能.
+
+　　50级的Transfusion(输血术)可以把地上变成灰尘的吸血鬼重新输入血液使其复活,前提是死的鬼鬼没有返回复活点.平常也可作疗伤用,但不可给自己输血.
+
+　　54级的BloodyNail(血爪)是鬼鬼近战爪子技能中最厉害的,可惜有效距离只有一格.
+
+　　56级的AcidStorm(酸风暴)大面积杀伤魔法(遗忘掉那个PoisonStorm吧,它是准鸡肋魔法),伤害力很强,如果可以连续施放,可以说是另一个MeteorStrike(陨石术)
+
+　　58级的BloodyKnife(血刀),它不仅费血少,而且是连续无停顿的施放,对于低等级的人类是致命的,这个技能用处很广,杀人杀Boss都用的上.
+
+　　78级的Death(死亡),爆增魔法伤害力,如果用Death+GreenStlker+DarkbluePoison能活活折磨死那些人类了,绝对推荐,我经常这样耍人.
+
+
+
+一 天之炼狱客户端概述  
+1。1 客户端架构  
+
+天之炼狱的客户端源代码主体可以包括3个方面: 底层支持库， UI库， 游戏客户端。  
+
+底层支持库包括:  
+DirectXLib（DirectX/DirectDraw相关接口）  
+D3Dlib（Direct3D相关接口）  
+MZLib（数据压缩库， 修改自zlib）  
+mp3lib（MP3音乐格式支持库）  
+JpegLib（JPEG图像格式支持库， 原版使用修改后的jpeglib 5。x， 我已经修改为官方的jpeglib 6。x）  
+VolumeLib（系统音量控制支持库）  
+BasicS（包括基础的异常处理， 内存管理等）  
+mother（基础数学运算库）  
+GL（图像文件支持库， 包括tga和pcx）  
+Timer（定时器支持库）  
+Rbt（RaBbiT Library， 天炼自定的打包文件格式支持库）  
+DEUtil（天炼客户端的人物数据算法， 例如， 例如通过基本3围等属性获得当前人物的攻击速度）  
+WinLib（和基本Win32 Window的相关封装）  
+SpriteLib（天炼精灵库， 包括各种精灵文件格式的处理和绘制相关支持）  
+FrameLib（天炼精灵动画库， 包括动画相关处理和控制的支持）  
+
+底层库部分还包括其他一些第三方库（无需编译）， 例如: RAR文件格式支持库， ogg格式声音文件支持库等等。  
+
+UI库部分包括:  
+Widget（各种UI控件的实现）  
+Imm（力反馈输入设备接口）  
+Hangul（东方语系输入法实现）  
+UI基本逻辑以及实例程序  
+
+游戏客户端包括:  
+游戏封包及相关封包处理  
+实际游戏逻辑/主程序  
+
+1。2 客户端编译环境  
+
+客户端代码基于Microsoft Visual Studio v6。0编写， 可以容易调整到Microsoft Visual Studio 2003（主要是STL版本方面的变化）。  
+客户端源代码使用到的第三方库如下:  
+
+DirectX v7。0 SDK（已经调整到可以在dx8， dx9下编译）  
+JPEG Library  
+RAR Archive Library  
+Immersion’s Feelit API  
+CPP-Unit（C++ unit testing framework）  
+Zlib（Zip Archive）  
+G-Audio  
+Ogg Sound Library  
+
+
+二 天之炼狱客户端源代码底层支持库模块  
+
+2。1 底层支持库模块概述  
+
+实际游戏底层支持库分布在以下三个不同位置:  
+第一， Client目录下， 作为Client模块的子工程， 包括重要的SpiritLib， FrameLib， WindowLib， DirectXLib， D3Dlib等;  
+第二， Lib目录下， 比较简单的一些基础库的源代码， 例如BasicS， mother等;  
+第三， 不在整理的源代码中， 但是基本上可以在Disk2/Disk1中找到， 例如Timer， GL等。  
+其中某些库是网上可以找到的free或非free的库， 以源代码的方式加入， 实际往往可以用更新的版本加以替换， 包括CPP-Unit， Jpeglib， Zlib， Feelit Library等等。  
+
+2。2 关键类库分析I – DirectX相关接口库  
+
+一， DirectX Library  
+DirectX Library是天炼DirectX相关的接口封装类库， 涉及DirectDraw， DirectSound， DirectMusic， DirectInput等部分。  
+CDirectDraw。cpp: 封装DirectDraw的相关接口和简单调用逻辑到CDirectDraw类。  
+CDirectDrawSurface。cpp: 封装DirectDraw的关键概念Surface到CDirectDrawSurface类。  
+CDirectInput。cpp: 封装DirectInput的相关接口和简单调用逻辑到CDirectInput类， 已经改为dx8/dx9支持。  
+CDirectMusic。cpp: 封装DirectMusic的相关接口和简单调用逻辑到CDirectMusic类。  
+CDirectSound。cpp/CDirectSoundStream。cpp: 封装DirectSound的相关接口和简单调用逻辑到CDirectSound类， 包含mp3和ogg的支持。  
+
+二， Direct3D Library  
+天炼客户端中使用D3Dlib的作用是使用3D硬件加速2D绘制速度和效果， 例如2D图像blt， alpha透明等运算等等。  
+
+2。3 关键类库分析II – 天炼精灵库  
+
+SpriteLib是天炼客户端中非常重要的底层类库， 包括各种精灵文件格式的处理和绘制相关支持。  
+
+CSpriteSurface。cpp: 精灵Surface类， 基于CDirectDrawSurface， 支持了各种天炼精灵类的绘制以及一些基本特效如: AlphaBlending  
+CAlphaSprite。cpp: AlphaSprite类， 半透明精灵类。  
+CAlphaSpritePack。cpp: AlphaSprite打包文件的读写， 扩展名。aspk。  
+CFilter。cpp: 滤镜类， 用于某些图像处理/图像特效算法。  
+CFileIndexTable。cpp: 文件的索引表类， 打包文件处理相关。  
+CIndexSprite。cpp: IndexSprite类， 索引精灵类。  
+CIndexSpritePack。cpp: IndexSprite打包文件的读写， 扩展名。ispk。  
+CSprite。cpp: 基本精灵类。  
+CSpritePack。cpp: 基本精灵类打包文件的读写， 扩展名。spk。  
+CSpritePal。cpp: 基本精灵调色板类。  
+MPalettePack。cpp: 调色板打包文件的读写。  
+CSpritePalBase。cpp: 各种精灵调色板类的父类。  
+
+2。4 关键类库分析III – 天炼动画库  
+
+FrameLib是天炼客户端中非常重要的底层类库， 包括动画相关处理和控制的支持（主要用在特效实现方面）。  
+
+CAnimationFrame: 动画帧类， 包括文件读写和基本信息。  
+CAnimationFrameSetManager。cpp: 动画帧集合管理类。  
+CCreatureFrameSetManager。cpp: 生物动画帧集合管理类。  
+CFramePack。cpp: 动画帧信息文件类。 同时包括CImageFramePack， CAnimationFramePack，CDirectionFramePack， CEffectFramePack的实现。  
+
+三 天之炼狱客户端源代码UI库模块  
+
+天炼UI库独立于游戏客户端源代码， 包括一个完整的示例程序和静态库， 静态库用于游戏客户端。  
+UI部分基本上可以分为下列四部分:  
+根目录: UI基本逻辑以及实例程序  
+Widget: 各种UI控件的实现  
+Imm: Immersion公司的力反馈输入设备接口API  
+Hangul: 东方语系输入法实现  
+
+Hangul部分:  
+Ci。cpp: 实现了两个类: CI_CHINESE和CI_KOREAN。 但是他对于输入法的处理并不完善， 停留在老版本的IMM API。  
+FL2。cpp: 东方语系（DBCS， Double-Byte Character Set）文字的绘制。  
+
+Widget部分:  
+u_window。cpp: window控件基本逻辑和消息处理。  
+u_button。cpp: 按钮控件基本逻辑和消息处理。  
+u_edit。cpp: 编辑框控件基本逻辑和消息处理。  
+u_scrollbar。cpp: 滚动条控件基本逻辑和消息处理。  
+
+UI基本逻辑和实例程序部分:  
+VS_UI_Base。cpp: 天炼UI控件父类。  
+VS_UI_BBS。cpp: 天炼BBS控件（并未实际实现）。  
+VS_UI_Description。cpp: 天炼描述文字框控件。  
+VS_UI_Dialog。cpp: 天炼对话框控件。  
+VS_UI_ELEVATOR。cpp: 天炼魔灵大地之角的界面。  
+VS_UI_Exchange。cpp: 天炼物品交易界面。  
+VS_UI_ExtraDialog。cpp: 天炼特殊对话框界面。  
+VS_UI_Game。cpp: 天炼游戏整体界面组织。  
+VS_UI_GameCommon。cpp/vs_ui_gamecommon2。cpp: 天炼游戏整体界面逻辑。  
+VS_UI_GameOusters。cpp/VS_UI_GameSlayer。cpp/VS_UI_GameVampire。cpp: 三个种族的整体界面。  
+VS_UI_Item。cpp: 物品绘制相关处理。  
+VS_UI_Message。cpp: 信息文字（例如公告）显示相关处理。  
+VS_UI_mouse_pointer。cpp: 鼠标指针。  
+VS_UI_progress。cpp: 天炼进度条控件。  
+VS_UI_Shop。cpp: 天炼商店对话界面。  
+VS_UI_skill_tree。cpp: 天炼技能树界面。  
+VS_UI_SKILL_VIEW。cpp: 天炼技能信息显示界面。  
+VS_UI_Storage。cpp: 天炼商店货架界面。  
+VS_UI_Title。cpp: 进入游戏前的一些界面（登陆框， 服务器选择框， 人物选择框等）。  
+VS_UI_Tutorial。cpp: 游戏帮助界面。  
+
+四 炼狱客户端源代码主程序模块  
+
+客户端主程序包括两大部分， 封包和游戏逻辑。  
+封包部分比较简单， 在Packet目录下， 和服务器端源代码相关部分完全一致。  
+
+主程序中关键文件说明:  
+CAvi。cpp: Avi动画播放类。  
+CGameUpdate。cpp: 游戏画面/内部信息刷新类（游戏循环相关）。  
+Client。cpp: 入口程序， 基本的初始化任务。  
+ClientConfig。cpp: 用户选项设置处理。  
+ClientFunction。cpp: 声音和显示的基本功能函数。  
+CMP3。cpp: Mp3音乐播放类。  
+COGGSTREAM。CPP: ogg声音播放类。  
+CSystemInfo。cpp: 系统信息管理。  
+CToken。cpp: 字符串解析类。  
+CUsingColorSetTable。cpp: 色彩集载入处理， 和IndexSpirit相关。  
+CWaitPacketUpdate。cpp: 等待封包更新模块。  
+CWaitUIUpdate。cpp: 等待界面更新模块。  
+DebugInfo。cpp: 调试信息相关。  
+ExperienceTable。cpp: 经验等级表及相关信息文件读写。  
+GameInit。cpp: 游戏初始化。  
+GameMain。cpp: 天炼游戏主程序。  
+GameUI。cpp: 天炼游戏UI组织。  
+GuildInfo。cpp/GuildMemberInfo。cpp: 工会相关。  
+MAnimationObject。cpp: 可动画对象类。  
+MAroundZoneEffectGenerator。cpp: 地图特效处理类。  
+MathTable。cpp: 快速数学计算。  
+MAttachEffect。cpp: 可附着特效处理类。  
+MChatManager。cpp: 聊天系统相关处理。  
+MCreature。cpp: 生物类， 包括玩家， 怪物， NPC。  
+MCreatureSpriteTable。cpp: 生物精灵表。  
+MCreatureWear。cpp: 生物穿着（纸娃娃）。  
+MEffect。cpp: 特效基础类。  
+MImageObject。cpp: 平面图像类对象类（例如墙）。  
+MInteractionObject。cpp: 可互动对象类（例如门）。  
+MGameStringTable。cpp: 写死的一些关键字符串（中文版是MGameStringTable-c。cpp）。  
+MHomingEffect。cpp: 可跟踪特效类。  
+MInventory。cpp: 物品栏类。  
+MItem。cpp: 物品类。  
+MNPC。cpp: NPC类。  
+MObject。cpp: 物件类。  
+MObjectSelector。cpp: 物件是否可选择/可攻击判断。  
+MParty。cpp: 组队相关处理。  
+MPlayer。cpp: 玩家类。  
+MPlayerGear。cpp: 玩家装备处理。  
+MPortal。cpp: 过图点处理。  
+MQuestInfo。cpp: 任务信息。  
+MQuickSlot。cpp: 腰带栏处理。  
+MScreenEffect。cpp: 屏幕特效类。  
+MSector。cpp: 地图上的没个格子的相关处理。  
+MShadowAnimationObject。cpp: 具有阴影的动画对象。  
+MShadowObject。cpp: 阴影对象。  
+MShop。cpp: 商店类。  
+MStatusManager。cpp: 三维等实际效果的计算公式。  
+MTopView。cpp: 最终游戏屏幕绘制结果， 连接UI， 精灵绘制， 特效绘制， 地图等等。  
+MZone。cpp: 地图区域类， 包括和地图相关的信息读取， 和一起逻辑处理。  
+Netmarble。cpp: Netmarble接口。  
+nProtect。cpp: nProtect接口。
+
+
+
+
+天之炼狱物品收藏：收藏狂人快出手吧。
+力量+1(狼)力量+2(熊)力量+3(食人兽)力量+4(巨人）力量+5(泰坦)
+
+知识+1(聪明人)知识+2(智者)知识+3(法师)知识+4(大法师)知识+5(先知)
+
+敏捷+1(乌鸦）敏捷+2(猫头鹰)敏捷+3(鹰)敏捷+4(雕）敏捷+5(凤凰)
+
+能力值总和+1(雅安)能力值总和+2（默特)能力值总和+3(普塔)
+
+防御+1(保护)防御+2(防御)防御+3(封闭）防御+4(安全)防御+5(神佑)
+
+回避率+1(毒蛇)回避率+2(蛇怪)回避率+3(女妖)回避率+4(美杜莎)回避率+5(比蒙巨兽)
+
+命中率+1(飞马)命中率+2(狮鹫)命中率+3(蝎狮)命中率+4(双足飞龙)命中率+5(黑龙)
+
+杀伤力+1(猛烈)杀伤力+2(粉碎)杀伤力+3(屠杀)杀伤力+4(破坏)杀伤力+5(毁灭)
+
+幸运+1(好运)幸运+3(苜蓿)幸运+5(石榴石)
+
+视野+1(光彩)视野+2(闪烁)视野+3(闪耀)
+
+HP吸收+1(鬼力)HP吸收+2(人力)HP吸收+3(神力)
+
+MP吸收+1 （魔力）  MP吸收+2（灵力）MP吸收+3（圣力）
+
+EP吸收+1（魔力）EP吸收+2（灵力）EP吸收+3（圣力）　　
+
+攻击速度+5(快速)攻击速度+10(云）攻击速度+15(风)攻击速度+20(雷)攻击速度+25(电）
+
+有效打击+2(伤害)有效打击+4(重击)有效打击+6(致残)有效打击+8(极端)有效打击+10(致命)
+
+HP+3(生命)HP+6(长生) HP+9(无穷) HP+12(复活)HP+15(永恒)
+
+EP+5（心灵）EP+10（神之精灵）EP+15（意志）EP+20（信赖）EP+25（信心）　　
+
+MP+5（心灵）MP+10（神之精灵）MP+15（意志）MP+20（信赖）MP+25（信心）
+
+耐久性+20%（坚硬）耐久性+40%（牢固）耐久性+60%（强壮）耐久性+80%（金属）耐久性+100%（金钢）
+
+酸魔法抵抗力+5（紫水晶）酸魔法抵抗力+10（绿玉）酸魔法抵抗力+15（蓝宝石）
+
+毒魔法抵抗力+5（琥珀）毒魔法抵抗力+10（红宝石）毒魔法抵抗力+15（祖母绿）
+
+血魔法抵抗力+5（黑曜石）血魔法抵抗力+10（血石）血魔法抵抗力+15（翡翠）
+
+诅咒魔法抵抗力+5（月长石）诅咒魔法抵抗力+10（主教十字架）诅咒魔法抵抗力+15（钻石戒）
+
+抵抗力总和+1（宝石）抵抗力总和+3（黄水晶）抵抗力总和+5（锆石）抵抗力总和+7（玛瑙）抵抗力总和+9（红玉）

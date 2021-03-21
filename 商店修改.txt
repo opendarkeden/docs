@@ -1,0 +1,19 @@
+商店修改分析
+数据表ShopTemplate
+
+下面是字段作用分析
+
+ID：此数值不能重复出现
+ShopType：数值分别是0，1，2，分别代表商店中的一般物品、特殊物品、赌博物品
+ItemClass：物品类型
+MinItemType：最低物品数字
+MaxItemType：最高物品数字
+MinOptionLevel：可能出现的属性最低等级(0-4)
+MaxOptionLevel：可能出现的属性最高等级(0-5)
+NPCID：在那个NPC出售，具体ID请查NPC表
+
+此表修改后不能马上更新，最快的更新方法是重启服务器端。
+
+
+爱上网游 制作
+2009-01-24

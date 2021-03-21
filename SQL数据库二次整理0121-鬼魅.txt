@@ -1,0 +1,370 @@
+鬼魅整理   SQL游戏数据库信息。
+英文翻译。  整理日期2009年1月21日
+
+二次更新整理,更加明确的分析数据。
+
+
+============================================================================
+人类数据系列：
+STRBalanceInfo   人物升级经验设置
+SRInfo           人类枪手SR阻击武器数据
+SMGInfo          人类枪手SMG自动步枪武器数据
+TrouserInfo      人类裤子信息
+SwordInfo 	 人类 剑信息
+ShoesInfo    	 鞋类信息
+Flamma Shield 	 盾类信息
+SGInfo  	 散弹枪类信息
+MotorcycleInfo   摩托车信息
+MoonCardObject   摩托车寻求对象信息
+MagazineInfo     子弹信息
+MaceInfo         权杖信息
+KeyInfo          钥匙信息
+HolyWaterInfo    圣水信息
+HelmInfo         人类头盔信息
+GloveInfo        人类手套信息
+CrossInfo        十字架信息
+CoupleRingInfo   情侣戒指信息
+CoatInfo         人类衣服信息
+BombMaterialInfo  炸弹材料信息
+BombInfo           炸弹信息
+BeltInfo          人类腰带信息
+ARInfo            人类步枪信息
+DEXBalanceInfo    人物敏捷经验信息
+WaterInfo         药水瓶数据
+TrapItemInfo  	  陷阱信息
+BraceletInfo     人类手镯信息
+INTBalanceInfo    知识经验信息
+PotionInfo        药水信息
+
+============================================================================
+
+吸血鬼数据系列：
+VampireWeaponInfo  吸血鬼武器信息
+Vampire Skill Save  吸血鬼技能保存
+VampirePortalItemInfo  吸血鬼项目信息
+VampireNecklaceInfo 吸血鬼项链信息
+VampireCoupleRingInfo  吸血鬼夫妻指环信息
+VampireCoatInfo      吸血鬼衣服信息
+Vampire Bracelet Info   吸血鬼手镯信息
+Vampire Amulet Info   吸血鬼的护身符信息
+VampEXPBalanceInfo   吸血鬼经验信息
+SerumInfo 	    血清信息
+RingInfo  	    戒指信息
+
+============================================================================
+
+魔灵数据系列：
+OustersWristletInfo  魔灵法师武器信息
+OustersSummonItemInfo   魔灵飞行物品信息
+OustersStoneInfo   魔灵石头信息
+OustersRingInfo    魔灵指环信息
+OustersPendentInfo 魔灵挂链信息
+OustersEXPBalanceInfo  魔灵经验信息
+OustersCoatInfo     魔灵衣服信息
+OustersCircletInfo  魔灵头饰信息
+OustersChakramObject 魔灵轮子对象 服务器
+OustersChakramInfo  魔灵轮武器信息
+OustersBootsInfo    魔灵靴子信息
+OustersArmsbandInfo  魔灵臂环信息
+BladeInfo          叶片信息 
+LarvaInfo          幼虫信息 
+
+============================================================================
+
+服务器数据系列：
+Slayer  （人）  人类修改
+Vampire （鬼）  人物修改
+Ousters （魔）  人物修改
+WorldInfo      服务器名字
+WorldDBInfo    世界数据库信息
+UniqueItemInfo 独特的项目信息
+Player         账号信息
+PupaObject    服务器对象
+PupaInfo       服务器对象信息
+Log User Info  注册用户信息
+ClientVersion_bak  客户端版本备选
+ClientVersion  客户端版本
+
+
+============================================================================
+
+宠物数据系列：
+PetTypeInfo_bak  	 宠物类型信息名博
+PetTypeInfo  		 宠物类型信息
+PetItemInfo 		 宠物项目信息
+PetFoodInfo   		 宠物食品信息
+PetExpInfo       	 宠物经验信息
+PetEnchantOptionRatioInfo 宠物强化信息
+PetEnchantItemObject 	  宠物强化对象信息
+PetEnchantItemInfo 	  宠物强化项目信息
+PetAttrInfo 		  宠物属性信息
+PetAttrBalanceInfo 	  宠物属性平衡信息
+RankEXPInfo   		  貌似宠物经验信息
+
+============================================================================
+
+游戏设置系列：
+ZoneTriggers 		区域触发器
+Triggers  		 NPC触发器
+System Availabilities   系统的有效性
+SkullInfo   		头骨信息
+SkillTreeInfo 		技能树信息
+SkillDomainInfo		 技能域信息
+SkillBalance 		技能信息
+Shop Template  		铺模板
+Script    		 脚本
+ReinforceRegisterInfo   加强注册信息
+RegenZonePosition 	再生区域位置
+ResurrectItemInfo 	复活项目信息
+PKZoneInfo 		 PK区信息
+PersonaInfo  		人物信息
+OptionInfo  		选择信息
+OptionClassInfo 	备选案文类信息
+NPC    			NPC信息
+NicknameIndex		 昵称信息
+NicknameBook  		人物昵称信息
+NecklaceInfo 		 人类项链信息
+MoonCardInfo  		技能卡片类信息
+MonsterKillQuestInfo    怪物杀死探索信息
+MonsterInfo   		怪物信息
+MoneyInfo  		资金信息
+LastNameInfo   姓信息
+GameServerInfo  游戏服务器信息
+GameServerGroupInfo  游戏服务器组信息
+FirstNameInfo   姓信息
+EffectRestore  还原的影响
+EffectPKZoneRegen 再生PK区影响
+EffectItemInfo  影响项目信息
+DyePotionInfo  染料药水信息
+DirectiveSet  指令集
+DefaultOptionSetInfo  默认选项设置信息
+BloodBibleSignInfo  血圣经注册信息
+BloodBibleObject  血圣经对象
+BloodBibleInfo  血圣经信息
+BloodBibleBonusInfo  血圣经奖励信息
+AttrInfo  属性设置
+AdvancementClassEXPInfo  经验类提高信息
+GSStringPool 游戏脚本中文信息
+
+
+============================================================================-
+
+
+其他设置系列：
+SweeperSetInfo 		扫集信息
+SweeperOwnerInfo 	所有者的信息
+SlayerWeaponRewardInfo 杀手武器奖励信息
+RelicInfo 		 文物信息
+RankBonusInfo 		排名奖励信息
+RaceWarPCLimit		种族战争的PC极限
+RaceWarHistory 		种族战争史
+QuestItemObject 	  寻求项目对象
+QuestItemInfo  		寻求项目信息
+MixingItemInfo  	混合项目信息
+MittenInfo  		河蟹信息
+MiniGameQuestInfo 	 迷你游戏探索信息
+MineInfo  		矿山信息
+MiddleNameInfo  	中东名称信息
+MasterLairInfo  	主巢穴信息
+MACBlockInfo 		陆委会座信息
+LuckyBagInfo  		幸运袋信息
+LuckyBagCount 		幸运袋计数
+LuckInfo  		好运信息
+LevelWarZoneInfo  	一级战区信息
+LevelWarHistory   	级别战争历史
+LearningItemInfo  	学习项目信息
+ItemTraceLog  		项目追踪记录
+ItemRewardInfo  	项目奖励信息
+ItemMineInfo   		项目矿山信息
+ItemGradeRatioInfo  	项目级比信息
+ItemClass  		项目类别
+IPBlockInfo  		IP块信息
+GuildUnionOffer 	 公会联盟优惠
+GuildUnionMember  	公会联盟会员
+GuildUnionInfo		 公会联盟信息
+GuildInfo 		 公会信息
+GroupListInfo  		组列表信息
+GquestItemInfo 		探索项目信息
+GoodsListInfo_bak  	商城货物游览信息
+GoodsListInfo   	商城货物信息
+GiftBoxCount  		礼品盒计数
+GatherItemQuestInfo  	关于信息搜集项目
+FlagPolePosition  	旗杆位置
+EventZoneInfo 		活动区信息
+EventTreeInfo  		事件树信息
+EventStarInfo  		事件明星信息
+EventQuestRewardInfo    事件任务奖励信息
+EventQuestLootingInfo  关于抢劫事件信息
+EventItemInfo  		活动项目信息
+EventItemInfo2 		活动项目数 2
+EventItemCount  	活动项目数
+EventGiftBoxInfo 	 活动礼品盒信息
+EventETCInfo  		事件等信息
+ETCInfo  		等信息
+DarkLightInfo 		 暗光信息
+CoupleInfo  		情侣信息
+CodeSheetInfo 		 码表信息
+CastleSymbolObject	 城堡符号对象
+CastleSymbolInfo 	城堡符号信息
+CastleStatInfo  	城堡统计信息
+CastleSkillInfo  	城堡技能信息
+CastleShrineInfo  	城堡神社信息
+CastleInfo   		城堡信息
+CarryingReceiverInfo    携带接收信息
+CardCount  		卡伯爵
+
+
+============================================================================
+其他技术员整理的资料：
+天之炼狱数据库Darkeden 里面某些表的解释 
+
+
+Abnormallist   这个没有什么东西
+AdvancementClassEXPInfo   这个2转经验值  1-100
+ARInfo  抢AR的属性
+ARObject  这个应该是 玩家得到或者使用AR抢的记录 
+AttrInfo   不明 
+BeltInfo  可能是腰带 信息表
+BloodBibleInfo  圣书的名字
+BladeInfo  刀武器的 信息表
+BloodBibleBonusInfo  圣物
+CoreZapInfo   这个是 套套的标 
+CoatInfo  这个人类的 衣服表 
+CoupleInfo  情侣 数据表
+CoupleRingInfo 情侣戒指表
+CrossInfo 十字架 表
+DeleteChar 删除角色记录表  
+DermisInfo  吸血鬼 文信表
+DirectiveSet  指令 设置
+ETCInfo   些血鬼的 文信的东西 
+EnemyErase   这个可能是 谁被谁杀的
+EventTreeInfo  物品交易记录
+EventETCInfo 特殊物品  比如爆竹 什么的
+EventItemInfo  东西  物品代码 从53 的0-35
+EventStarInfo  蓝宝石 啥的 里面都有 物品代码 41 的 0-22
+EventTreeInfo 有圣诞数之类 的
+FasciaInfo 不知道
+GameServerGroupInfo   里面设置 游戏的 线 在 GroupName 修改
+GameServerInfo 里面设置进入游戏的IP 
+GatherItemQuestInfo
+GiftBoxCount 礼品盒计数
+Glove Info  手套信息 人类的手套
+GoodsList  可能跟商城有关系
+GoodsListInfo 可能跟商城有关系
+GQuestItemInfo 
+GoodsListInfo  特殊物品 
+GSStringPool  修改系统的游戏喊话
+GuildInfo  工会表
+GuildMember  工会成员 
+HeadCount  不知道
+HelmInfo 是 人类 头盔 表
+HolyWaterInfo  是人类 祝福 的圣水 表
+INTBalanceInfo 这个可能是 人类智力 升级经验表
+
+IPBlockInfo  封锁IP 信息
+KeyInfo 这个是人类 车的信息
+LarvaInfo 磨灵的 幼虫 表
+LearningItemInfo 任务物品  比如 CD 圣经啊 什么的
+list 不知道什么意思
+loginerror 登陆错误记录
+LuckyBagInfo 颜色包袋表
+MACBlockInfo  MACip 封锁
+
+============================================================================
+MaceInfo 祝福权杖 表
+MagazineInfo   这个是人类枪 的 武器表
+MineInfo 这个是 人类 枪的 成品 雷 信息表
+MixingItemInfo 这个是 合成器 之类 信息
+MonsterInfo 怪物信息表
+MoonCarDInfo 半月卡 技能卡 之类的 信息表
+MotorcycleInfo   摩托车信息
+MoneyTraceLog 金钱交易记录 
+NecklaceInfo 人类 护身符 表 
+NicknameBook  可能是  昵称修改  
+NicknameIndex  系统原本 昵称 表
+NPC   NPC 的设置
+OustersEXPBalanceInfo  魔灵升级经验信息
+OustersStoneInfo  仓库信息
+PCRoomPayList 可能是网吧玩家 
+PetAttrBalanceInfo 狗狗升级经验表
+QuestItemInfo 整理到这里 明天继续 
+RankEXPInfo  阶级经验表
+SkillBalance  技能表
+SkillSave  谁学过的技能  如果清空了 玩家就要重新学习。。
+SkullInfo  这个是 打怪物 得到的骨头  把头卖给NPC的价格
+Slang  这个表是 屏蔽 粗话 之类的
+SpeedHackPlayer   加速玩家记录表 
+SubInventoryInfo  2乘4 的 背包 
+SweeperBonusInfo  震荡器 表    就是。。。卡1到卡4 那种核武器的争夺
+SwordInfo  剑 武器信息库 
+TimeLimitItems  这个是 圣物的物品玩家使用表 
+TradeLog  交易记录表
+TrouserInfo  人类裤子表
+VampEXPBalanceInfo  吸血鬼 经验表
+VampireNecklaceInfo  吸血鬼 项链表
+VampirePortalItemInfo  吸血鬼  漩涡 徽章 表
+VampireRingInfo  吸血鬼  戒指 表
+VampireSkillSave 吸血鬼 技能学习记录
+VampireWeaponInfo  武器表 
+WaterInfo  圣水表 人类
+
+整理 :仙剑网
+
+
+
+============================================================================
+
+
+
+表含义 
+Name 角色名称 
+PlayerID 帐号名称 
+Fame 名声 
+Rank 阶级等级 
+BladeLevel 刀术等级 
+BladeGoalExp 刀术升级经验（下一等级所需经验） 
+SwordLevel 剑术等级 
+SwordGoalExp 剑术术升级经验（下一等级所需经验） 
+GunLevel 枪术等级 
+GunGoalExp 枪术升级经验（下一等级所需经验）
+EnchantLevel 祝福等级
+EnchantGoalExp 祝福升级经验（下一等级所需经验）
+HealLevel 治疗等级
+HealGoalExp 治疗升级经验（下一等级所需经验）
+Level 等级（吸血鬼、魔灵）
+GoalExp 升级经验（吸血鬼、魔灵下一等级所需经验）
+
+============================================================================
+
+跟公会相关的表：
+GuildInfo
+GuildMember
+GuildRegistrationInfo
+GuildUnionInfo
+GuildUnionMember
+GuildUnionOffer
+GuildVoteDataInfo
+GuildVoteInfo
+GuildWarHistory log记录
+CrashReportLog
+EnemyErase
+EventQuestRewardRecord        
+FlagSet
+FlagWarHistory
+GQuestSave
+RaceWarHistory
+WarScheduleInfo
+
+怪物表
+LastNameInfo
+
+系统信息表
+GSStringPool
+
+系统相关的表
+GameServerInfo
+GameServerGroupInfo
+WorldDBInfo
+WorldInfo	
+============================================================================
+

@@ -1,0 +1,49 @@
+http://bbs.yxlyy.club/forum.php?mod=viewthread&tid=959&highlight=%CC%EC%D6%AE%C1%B6%D3%FC
+
+一 天之炼狱客户端概述  
+1。1 客户端架构  
+
+天之炼狱的客户端源代码主体可以包括3个方面: 底层支持库， UI库， 游戏客户端。  
+
+底层支持库包括:  
+DirectXLib（DirectX/DirectDraw相关接口）  
+D3Dlib（Direct3D相关接口）  
+MZLib（数据压缩库， 修改自zlib）  
+mp3lib（MP3音乐格式支持库）  
+JpegLib（JPEG图像格式支持库， 原版使用修改后的jpeglib 5。x， 我已经修改为官方的jpeglib 6。x）  
+VolumeLib（系统音量控制支持库）  
+BasicS（包括基础的异常处理， 内存管理等）  
+mother（基础数学运算库）  
+GL（图像文件支持库， 包括tga和pcx）  
+Timer（定时器支持库）  
+Rbt（RaBbiT Library， 天炼自定的打包文件格式支持库）  
+DEUtil（天炼客户端的人物数据算法， 例如， 例如通过基本3围等属性获得当前人物的攻击速度）  
+WinLib（和基本Win32 Window的相关封装）  
+SpriteLib（天炼精灵库， 包括各种精灵文件格式的处理和绘制相关支持）  
+FrameLib（天炼精灵动画库， 包括动画相关处理和控制的支持）  
+
+底层库部分还包括其他一些第三方库（无需编译）， 例如: RAR文件格式支持库， ogg格式声音文件支持库等等。  
+
+UI库部分包括:  
+Widget（各种UI控件的实现）  
+Imm（力反馈输入设备接口）  
+Hangul（东方语系输入法实现）  
+UI基本逻辑以及实例程序  
+
+游戏客户端包括:  
+游戏封包及相关封包处理  
+实际游戏逻辑/主程序  
+
+1。2 客户端编译环境  
+
+客户端代码基于Microsoft Visual Studio v6。0编写， 可以容易调整到Microsoft Visual Studio 2003（主要是STL版本方面的变化）。  
+客户端源代码使用到的第三方库如下:  
+
+DirectX v7。0 SDK（已经调整到可以在dx8， dx9下编译）  
+JPEG Library  
+RAR Archive Library  
+Immersion’s Feelit API  
+CPP-Unit（C++ unit testing framework）  
+Zlib（Zip Archive）  
+G-Audio  
+Ogg Sound Library  

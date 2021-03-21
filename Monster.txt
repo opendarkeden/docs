@@ -1,0 +1,104 @@
+
+
+
+
+117-119 机器人
+
+120-128 小怪博士
+129-137  小怪 会放毒的
+138-146  小怪 会放 黑暗之触的
+147-157  德东那的 铁甲怪
+
+
+200- 206 带扇子的巫婆
+207 -217  拉深的肌肉男
+
+218-228   会放 黑的跟酸的怪。。法师
+229 拿斧头的怪！！小怪 穿半身的
+240-245 双抢的怪 小的怪
+
+260 颓废的怪！！！
+270 漂浮的怪会麻痹打怪
+280 双剑的怪
+290  带电锯的肌肉男
+388 -399 带斧头的L1 怪
+400  胖子怪
+410 拐杖的L2 法师
+418- 430驼背的法师怪 乌龟壳的
+
+450 -457 A3的法师怪 带棒子的
+458 L2的小狼
+459 红大狼
+460 红小狼
+471 红的法师袍
+476 红的 双节剑怪
+
+495-502 巫婆
+503- 石头怪 
+504 排骨怪
+
+530 -550 石庄 装饰
+560 桌子
+561 石头的物品
+568 红小狼
+
+*command invincible on
+这个是无敌
+
+
+刷怪命令  *summon {765 5}
+这个是刷5个胜地BOSS
+
+*command killAllMonster
+这个是杀死地图上所有怪
+
+735 | Slayer Guard   一个小强人类
+737 | Ousters Guard  魔族小强一个
+724 | Vampire Test Model 1  爆强
+725 | Vampire Test Model 2  智小鬼爆强
+772 | Pusca 拿炮的肌肉男
+771 | Trasla  肌肉炮男强化
+774 | Nod Copila  机枪猛男
+775 | Razor  猛怪。。（翻滚）
+736 | Vampire Guard 小饭但是是鬼造型
+734 | Guild Tower 超级柱子
+722 | Hymez Frozen Statue 打盲管的
+779 | Roi Cadavru 巨锤
+754 | Rum Guarder  长毛
+733 | War Defender 假
+683 | Boss Lord Chaos 黄领主
+718 | Blunt Crag 石头人他哥
+433 | Tepez 棺材
+434 | Tepez  女鬼
+786 | Oberst 条子带火的
+778 | Tug Legger黑爬
+777 | Tug Leg 白爬
+431 | Bathory 非起来的小8
+432 | Bathory  真小8
+781 | Lunga Testa 长脖子
+791 | War Defender Red 红色长毛
+503 | Mount Crag 石头
+720 | Bone Guardian白骨守护
+780 | Siamese 双头
+785 | Hauptmann  警察
+719 | Mutant Edger 变异异性
+769 | Gefreiter  炸弹人
+796 | Mono Slayer M 一男人
+797 | Mono Slayer F 一女人
+798 | Mono Vampire M 男鬼
+799 | Mono Vampire F 女鬼
+800 | Mono Ousters MO一个
+459 | Blood Dun Wolfarch 红狼
+
+
+358 | Santa1 圣诞老人
+360 | Rudolf1 鹿
+765 | Great Ruffian Skull 圣地变身后的BOSS
+764 BOSS 没变身
+
+
+
+
+
+
+XJ

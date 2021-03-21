@@ -1,0 +1,60 @@
+db环境安装
+
+
+#安装之前确定内存,硬盘是否正确 top指令   df指令
+
+su
+#切换到root用户
+
+cd /root
+#下载install_DB_Game_Root.tgz安装包到/root目录
+tar -zxf install_DB_Game_Root.tgz
+cd installDarkEdenServer
+./installDBServer
+
+#等侍编译完成
+vi /etc/profile
+#在X11R6/bin after下面加上一行
+pathmunge /usr/local/mysql/bin
+
+#保存
+source /etc/profile
+cd /usr/local/mysql
+cp libexec/mysqld bin/
+mkdir var
+cd mysql-test/
+./install_test_db -bin
+cp -R var/master-data/mysql/ /usr/local/mysql/var
+chown mysql.mysql /usr/local/mysql/var/ -R
+chmod 755 /usr/local/mysql/var/ -R
+mkdir /darkeden/LOG/
+
+#数据库的环境安装完成
+
+#Logindb1,logindb2,Gamedb1,Gamedb2的配置文件有所不同
+#分别从已经做好其它的机器上面拷贝配置文件过来使用
+#现在分别拷四川区的
+#218.89.170.195 Logindb1
+#218.89.170.196 Logindb2
+#218.89.170.197 gamedb1
+#218.89.170.198 gamedb1
+#
+
+scp hdtuser@218.89.170.197:/etc/my.cnf /etc/
+vi /etc/my.cnf
+#更改文件内的	server-id=170197 中的(170197)为ip的后两位  如在61.129.55.200中 server-id=55200
+#如果是logindb2,gamedb2
+#还要更改
+#master-host=  的地址,把master-host指向主db的地址
+#保存
+
+#运行数据库
+safe_mysqld &
+#如果出现  [root@localhost mysql]# Starting mysqld daemon with databases from /usr/local/mysql/var
+#040204 18:57:12  mysqld ended
+#则数据库不正常,检查  more /usr/local/mysql/var/*.err
+#否则看到Starting mysqld daemon with databases from /usr/local/mysql/var则为正常
+
+
+
+

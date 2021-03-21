@@ -1,0 +1,42 @@
+http://reg.bupt.com/account/reg.php?action=reg
+
+GM命令列表
+*users
+*mute 玩家游戏名---------禁言 0
+*denychat 玩家游戏名-------------禁言（高级）
+*freezing 玩家游戏名--------------禁止玩家一切行动
+*deny 玩家游戏名------------停封玩家账号 1
+*allworld/*allworld-------------服务器覆盖
+*wall 公告内容--------公告 1
+*trace 玩家游戏名---------追踪某玩家 2
+*recall 玩家游戏名-----------召唤某玩家 2
+*kick 玩家游戏名-------------踢某玩家下线  2
+*warp 地图代码 坐标-----------瞬间移动 2
+*ghost----------隐身 1
+*shutdown 时间--------关闭服务器  1
+
+*view/*set exp_ratio  百分比------经验值比率调整
+*view/*set item_prob__ratio  百分比----掉宝率调整
+*view/*set rare_item_ratio  百分比--------稀有道具掉宝率
+*view/*set rank_exp_gain_percent  百分比--阶级经验比率调整
+harvest_festival_item_ratio   中秋
+
+
+发公告
+
+*wall 各位玩家玩上好
+
+几条线一起显示
+*allworld *wall 各位玩家玩上好
+
+
+120秒后重启
+*shutdown 1200   
+
+120秒后关服
+
+*set kill_daemonctl on
+*shutdown 1200 
+
+
+taijiol
