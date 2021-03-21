@@ -1,0 +1,26 @@
+7关于虚拟机启动出错。
+服务端中带有VM6.5的绿色版，出错问题主要有两种。
+一种是虚拟机无法执行，请先执行[绿化.exe]注册相关库文件。然后再运行虚拟机。
+还有一种是虚拟机无法加载服务端镜象。
+
+
+
+我按单机教程做的,但是在做完虚拟机后.点启动虚拟机然后就出现了:
+VMware Workstation cannot open one of the virtual disks needed by this VM because it is larger than the maximum file size supported by the host file system.  Some remote file systems do not support files larger than 2 GB, even though the file system on the server might.
+Cannot open the disk 'D:\tzlysf\DK2单机版\DK2单机版\Red Hat Linux-cl1.vmdk' or one of the snapshot disks it depends on.
+Reason: The file is too large.
+我英文不好~~~请高手帮忙解释下谢谢!!
+
+
+
+虚拟机镜象所在磁盘非NTFS格式，不支持大于4GB的文件 
+
+
+
+那么要怎么做啊~~~~把盘改成NTFS格式?  怎么改?
+帮忙
+
+
+将虚拟机镜象移动到NTFS格式磁盘分区。
+转换NTFS磁盘分区格式时首先建议将一个磁盘分区清空，然后右击盘符执行[格式化]命令，设置文件格式为[NTFS]，确定即可开始格式化。
+或者在XP或Vista的命令提示符状态下执行convert命令转换。具体转换请查看windows命令提示符的帮助（在命令提示符状态下输入“convert/?”即可）

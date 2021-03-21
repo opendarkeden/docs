@@ -1,0 +1,64 @@
+3.修改角色的基本属性(包括设置GM角色).
+在建立服务器后,很多玩家都希望能修改角色的各种属性.因此,在这里介绍一下.
+(1)  首先用VMWare加载服务端的linux镜象,启动linux系统.启动完毕后,运行游戏创建新角色.以人类玩家为例,创建一个人类,然后使用navicat 8 for mysql软件连接服务端的数据库(连接方法见二楼).
+(2)  在服务端共有3个数据库,分别为darkeden、mysql、userinfo等。选择darkeden数据库，单击其子项目[表]，选择名为[slayer]的数据表，双击该表，打开人类玩家的数据。
+修改吸血鬼玩家请选择[vampire]表，修改人妖玩家请选择[ousters]表。修改项目大致类似，如下所示
+(3)  在slayer表中，包含各种说明字段。在下面将分析这些字段的用途。
+a.  Race----玩家的阵营，包括吸血鬼（vampire）、人类（slayer）和人妖（ousters）等。字段内容必须大写。
+b.  Name----玩家的名字。该字段为当前玩家在游戏中的名称。
+c.  PlayerID----玩家所属的用户帐号。该字段为玩家登陆游戏时的帐号。
+d.  Slot----该字段为在选择角色步骤中的角色位置，包括SLOT1\SLOT2\SLOT3等3个插槽。
+e.  ServerGroupID----玩家所在服务器的代号。例如开了2组服务器，则会分1或2。
+f.  Active----玩家帐号是否已激活
+g.  AdvancementClass----玩家转职的等级。0为未转职的人物。1~100为转职后的等级。例如，将一个未转职的玩家修改为转职玩家，只需将该字段改为1到100之间的整数值即可。
+h.  AdvancementGoalExp----玩家转职后等级的经验
+i.  Competence----玩家的权限级别。0为GM，3为普通玩家（默认值）
+j.  Sex----玩家在游戏中角色的性别，分别为MALE(男)和FEMALE(女).
+k.  MasterEffectColor----玩家100级之后身上发光的颜色。默认为0。修改该值的效果和使用恐惧光环石等道具效果一样。
+l.  HairStyle----玩家头发类型（创建人物时选择的头像，创建角色时可选）
+m.  HairColor----头发颜色（创建角色时可选）
+n.  SkinColor----皮肤颜色（创建角色时可选）
+o.  Phone----删除角色时输入的内容（目前尚不可用）
+p.  STR----转职前的纯力量值（不包含装备）依此类推，DEX为敏捷，INT为智力
+q.  STRExp----增加下一点力量时已有经验值（仅人类有）依此类推，DEXExp和INTExp等
+r.  STRGoalExp----增加下一点力量时需要的经验值（仅人类有）依此类推，DEXGoalExp和INTGoalExp等
+s.  AdvancedSTR----转职后增加的力量。依此类推，AdvancedDEX和AdvancedINT
+t.  Bonus----尚未加的能力点。（人类仅转职后才有。吸血鬼和人妖未转职也有）
+u.  HP和CurrentHP----最大生命值和当前生命值（这个值是系统生成的，不要修改）。
+v.  MP和CurrentMP----最大魔力值和当前魔力值（同上）
+w.  Fame----名声，就是借圣书时需要的。
+x.  Notoriety----是否红名。
+z.  Gold----身上的钱。
+aa.  GuildID----角色所属的工会ID。
+ab.  BladeLevel、BladeExp和BladeGoalExp----刀手职业等级、当前经验以及下一等级需要的经验。
+ac.  SwordLevel、SwordExp和SwordGoalExp----剑手。。。。。。。。。。。。
+ad.  GunLevel、GunExp和GunGoalExp----军人。。。。。。。。。。。。
+ae.  EnchantLevel、EnchantExp和EnchantGoalExp----牧师。。。。。。。。。。
+af.  HealLevel、HealExp和HealGoalExp----医生。。。。。。。。。。
+ag.  ETCLevel、ETCExp和ETCGoalExp----其他（未使用）
+ah.  Rank、RankExp和RankGoalExp----阶级，阶级经验和下一阶级需要的经验
+ai.  ZoneID----角色所处的区域（地图）
+aj.  XCoord和YCoord----角色所出区域的坐标
+ak.  Sight----视野（最好不要改。改了会出错）
+al.  GunBonusExp----枪手奖励经验
+am.  RifleBonusExp----步枪奖励经验
+an.  Alignment----倾向
+ao.  F9/F10/F11/F12----快捷键（未使用）
+ap.  StashGold----储藏箱中的钱数目
+aq.  StashNum----储藏箱数量（最大3）
+ar.  ResurrectZone----复活位置
+as.  Shape----模型（不要修改，这个是人物的形象代码）
+at.  HelmetColor/JacketColor/PantsColor/WeaponColor/ShieldColor----在选择人物界面的头盔、上衣、裤子、武器和盾颜色
+au.  CompetenceShape----是否为GM形象(1为普通玩家)
+av.  Reward----酬金
+aw.  SMSCharge----消息管理
+ax.  LastPlayDate----最后一次登陆时间
+ay.  creation_date----创建角色时间
+
+修改吸血鬼角色必须修改vampire表.修改slayer表无效.人妖也一样.
+修改哪个种族的角色,就修改相应的表.修改完,人物如果在游戏中需要退出游戏再进才可以.
+
+
+GM角色默认是隐身的.需要执行*ghost命令取消隐身.
+
+

@@ -1,0 +1,6 @@
+这个问题已经问了3天了，没人理我！新建的人物进游戏后，就卡在地图里！不管是鬼还是人还是魔灵都一样，动不了，身上的装备也不能丢，服务端给的2个账号里的人物可以走动，装备在装备栏里的东西都是红色的！！！不能打怪也用不了技能！
+
+
+新建账号 要在player里 把账号 CurrentServerGroupID  改成1  ---(卡图就是因为CurrentServerGroupID这个是0)         111111和222222 里角色可以删除 在人slayer 鬼vampire 魔ousters表里  里面删除后从建角色即可gm权限根据种族在种族表里改把人slayer 鬼vampire 魔ousters三个表里的   competence  改成0
+
+
